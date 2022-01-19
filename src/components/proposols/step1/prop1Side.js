@@ -20,7 +20,7 @@ function Prop1side()
         <div className="prop1parent-skb">
             <div className="prop1parent-skb-child">
                 <div>
-                <img src={state.companyIcon}></img>
+                <img style={{width:"80%",height:"90%"}} src={state.companyIcon}></img>
                 </div>
                 <div >
                     <p style={{background:"#F5F5F5"}}>Claim made : N/A</p>

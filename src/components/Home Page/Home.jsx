@@ -72,7 +72,10 @@ export const Home = () => {
         <>
             <Navbar />
             <div className="home-main">
-            <div className="home-total" >
+            <div className="home-total" onClick={() =>{
+                    history.push("/bikeno")
+                  }
+                  }  >
                 <div className="home-head">
                     <p>Let’s find you <br />the <b>Best Insurance</b></p>
                 </div>

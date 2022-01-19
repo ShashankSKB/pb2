@@ -17,7 +17,7 @@ export const Navbar = () => {
         <>
             <div className="navbar">
                 <img className="logo-s" src={logo} alt="logo" />
-                <div className="navbar-insu " onMouseOver={display}>
+                <div className="navbar-insu " onClick={display}>
                     <p  >Insurance Products</p>
 
 
